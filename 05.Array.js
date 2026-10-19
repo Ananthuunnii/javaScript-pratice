@@ -32,3 +32,53 @@ console.log(wallet);
 // Array pop
 names.pop();
 console.log(names)
+
+
+// realworld example of array
+
+customerdetails = [
+    ["appu",29,"M"],
+    ["ammu",26,"F"]
+]
+console.log(customerdetails)
+
+function customerview(){
+    customerdetails = 
+    [
+        ["appu",29,"M"],
+        ["ammu",26,"F"]
+    ]
+    console.log(customerdetails)
+    customerdetails.push(["jack",34,"M"])
+    // console.log(customerdetails)
+    return customerdetails
+}
+outputview = customerview()
+console.log(outputview)
+
+
+
+
+/*****   returntype and non return type difference   ***** */
+
+customerdetails = [
+    ["appu",29,"M"],
+    ["ammu",26,"F"]
+]
+
+// no return type function with array push
+function customerview(first,secont){
+    customerdetails.push([first,secont])
+    console.log(first,secont)
+}
+customerview(10,20)
+
+
+
+// return type function with array push
+function customerview(first,secont){
+    customerdetails.push(first)
+    return customerdetails
+}
+result = customerview(["jagu",25,"M"])
+console.log(result)
