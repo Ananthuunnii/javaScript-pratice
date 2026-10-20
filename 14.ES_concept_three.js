@@ -89,18 +89,3 @@ var customer_lDetails = `customer name is ${customer_w.name} and he is from ${cu
 console.log(customer_lDetails);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
