@@ -176,7 +176,7 @@ var customerList =[    {
             "pets" : 0
             },
         "EMI" : true,
-        "vehiche": 2, // defined but nothing in that 
+        "vehiche": null, // defined but nothing in that 
         "ownhome":undefined //not defined
     }
 ]
