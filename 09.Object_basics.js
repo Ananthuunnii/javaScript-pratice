@@ -114,8 +114,71 @@ customer_1.family_details.mother = "Marry John"
 customer_1.family_details.father = "John Danny"
 console.log(customer_1);
 
-console.log("before adding  the new  property  customer_3",customer_1);
+console.log("before adding  the new  property  customer_1",customer_1);
 
 customer_1["hobbies"] =  ["video game","Watch movie",];
 delete customer_1.vehiche;
 console.log(customer_1)
+
+
+
+//*********************** Advanced - objects in JS  ***********/
+
+
+function objdetails(key){
+    var customer_1 =    {
+        "name" : "akash",
+        "age" : 24,
+        "gender" : "M",
+        "family_details" : {
+            "mother" :"marry",
+            "father" : "Danny",
+            "sister" : "grillish",
+            "pets" : 2
+            },
+        "EMI" : true,
+        "vehiche": null, // defined but nothing in that 
+        "ownhome":undefined //not defined
+    }
+    objdata = customer_1[key]
+    return  objdata
+}
+
+customer_1.name = "akash john"
+console.log("updated name check : ",customer_1)
+returndata = objdetails("gender")
+console.log("first: ",returndata)
+
+
+
+/************** create multi object in a array */
+var customerList =[    {
+        "name" : "akash",
+        "age" : 24,
+        "gender" : "M",
+        "family_details" : {
+            "mother" :"marry",
+            "father" : "Danny",
+            "sister" : "grillish",
+            "pets" : 2
+            },
+        "EMI" : true,
+        "vehiche": null, // defined but nothing in that 
+        "ownhome":undefined //not defined
+    },{
+        "name" : "appu",
+        "age" : 29,
+        "gender" : "M",
+        "family_details" : {
+            "mother" :"anna",
+            "father" : "done",
+            "sister" : "minu",
+            "pets" : 0
+            },
+        "EMI" : true,
+        "vehiche": 2, // defined but nothing in that 
+        "ownhome":undefined //not defined
+    }
+]
+console.log(customerList[0]["name"])
+console.log(customerList[0]["family_details"]["mother"])
