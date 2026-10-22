@@ -63,9 +63,9 @@ function scopeCheck(){
     }
     console.log("********scoper check outside if:",bignum)
     try{
-        console.log("it started")
-    }catch{
-        console.log("********scoper check inside if :",smallnum)
+        console.log("it started",smallnum)
+    }catch(e){
+        console.log("caught:", e.name, "-", e.message)
     }
     console.log("end")
 }
