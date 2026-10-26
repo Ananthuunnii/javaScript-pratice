@@ -13,6 +13,9 @@ console.log(wallet)
 // how to check the array inside a array
 console.log(wallet[4][0])
 
+//array last value finding
+console.log("salary last value :",salary[salary.length-1])
+
 
 
 // Array push
@@ -82,3 +85,33 @@ function customerview(first,secont){
 }
 result = customerview(["jagu",25,"M"])
 console.log(result)
+
+
+// array with loops for and while and conditional statements
+
+//for
+for(i = 0;i<highjumplength.length;i++){
+    console.log(highjumplength[i])
+    if (highjumplength[i] == 1.800){
+        console.log("the recorde present in the code")
+    }else{
+        console.log("record is not present")
+    }
+}
+
+//while
+var i = 0
+var len = salary.length
+var draft = []
+while(i<len){
+    console.log(`person ${i} salary is ${salary[i]}`)
+    if (salary[i]> 1000){
+        draft.push(salary[i])
+    }
+    i++
+}
+console.log("persons salary grater then 1000 :",draft)
+
+
+
+

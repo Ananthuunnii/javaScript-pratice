@@ -47,6 +47,12 @@ function GetCustomerId(list,listitem){
     return list
 }
 
+// unshift method(array method) - to add the array data in an array first position.
+var customerId = [1,2,3,4]
+customerId.unshift(5)
+console.log(" after the unshift array:",customerId)
+
+
 var customerId = [1,2,3,4]
 
 console.log("array format",customerId) // this is the array format

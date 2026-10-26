@@ -11,7 +11,8 @@ function printword(){
 }
 
 //calling function
-console.log("****first method****"+printword())
+var displayword = printword()
+console.log("****first method****",displayword)
 
 
 
@@ -22,7 +23,9 @@ function printword2(){
 }
 
 // calling function
-console.log("****Secont method****"+printword2())
+var displayword = printword2()
+console.log("****Secont method****",displayword)
 
 // /* *********** undefine is a datatype in JS ****/
-console.log("hi")
+var myName;
+console.log("value of myName  would be like : ",myName)  //because it's not defined

@@ -117,7 +117,7 @@ console.log(customer_1);
 console.log("before adding  the new  property  customer_1",customer_1);
 
 customer_1["hobbies"] =  ["video game","Watch movie",];
-delete customer_1.vehiche;
+delete customer_1.vehiche;  //delete a object
 console.log(customer_1)
 
 
