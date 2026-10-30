@@ -43,7 +43,7 @@ customerdetails = [
 console.log(customerdetails)
 
 function customerview(){
-    customerdetails = 
+    let customerdetails = 
     [
         ["appu",29,"M"],
         ["ammu",26,"F"]

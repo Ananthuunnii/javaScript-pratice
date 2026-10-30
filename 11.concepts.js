@@ -12,7 +12,7 @@ var customerIdNumber_2 = parseInt(customerIdString_2)
 console.log("output :",customerIdNumber_2)
 
 // NaN - means not a number which indicates that wheather given output in number fromat
-
+//NaN - not a number
 
 if(isNaN(customerIdNumber_2)){
     console.log("it is not a number")

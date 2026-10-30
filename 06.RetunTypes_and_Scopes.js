@@ -14,7 +14,7 @@ console.log("customerpassword is inside the function",customerpassword) //local 
 
 
 
-/* ***********11. function return type in not return  JS ***********/
+/* ***********11. function return type and not return  JS ***********/
 
 // with return type
 function customerdata(){
